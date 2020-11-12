@@ -1,13 +1,12 @@
 import React from "react"
-import Header from "../components/header"
+import Layout from "../components/layout"
+
 
 export default function Home() {
   return (
-    <div> 
-        <Header />  
-        <div style={{ color: `purple`, fontSize: `72px` }}>         
+    <Layout>        
+        <div style={{ margin: `3rem auto`, maxWidth: 600 }}>         
             Hello Gatsby!
         </div>
-    </div>);
-
+    </Layout>);
 }
